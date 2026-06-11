@@ -1,7 +1,9 @@
-# import pandas as pd
+import pandas as pd
 
-# # Read data from CSV file into a dataframe
+## Read data from CSV file into a dataframe
 
 # df=pd.read_csv("sales_data_sample.csv", encoding="Latin1")
-df=pd.read_excel("SampleSuperStore.xlsx")
+df = pd.read_json("sample_Data.json")
 print(df)
+
+# gcsfs
